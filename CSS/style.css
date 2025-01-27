@@ -1,0 +1,428 @@
+/* *{
+  border: 1px solid black;
+} */
+.header{
+  padding: 25px;
+  background-color: whitesmoke;
+}
+
+.logo{
+  width: 125px;
+ 
+  text-align: center;
+  margin-left: 15px;
+  
+
+
+}
+.banner-heading{
+    color: rgb(48, 48, 238);
+    font-size: 45px;
+    font-weight: bolder;
+    font-family: "Roboto";
+}
+
+.banner-view-line{
+    color: white;
+    font-size: 50px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+.content-line{
+    color: rgb(188, 57, 9);
+    font-size: 15px;
+    font-weight: 500;
+}
+.view-button{
+    color: white;
+    background-color: rgb(236, 122, 122);
+    border: none;           
+    color: white;               
+    padding: 10px ;         
+    text-align: center;         
+    text-decoration: none;      
+    display: inline-block;      
+    font-size: 15px;            
+    /* margin-left: 50px;
+    margin-right: 35px;
+    margin-top: 35px;
+    margin-bottom: 35px;          */
+    /* font-weight: 500;    */
+    /* cursor: pointer;             */
+    border-radius: 35px;
+}
+.banner-section-bg-container {
+    background-color: rgba(25,31,52); /* Blue background color */
+    background-image: url('../IMAGES/banner1.jpg'); /* Background image */
+    background-size: cover; /* Ensure the image covers the entire container */
+    background-repeat: no-repeat;
+    /* background-position: center; */
+    background-blend-mode: overlay; /* Blend blue with the image */
+    height: 70vh; /* Full viewport height */
+    display: flex;
+    /* justify-content: center;
+    align-items: center;
+    text-align: center; */
+    color: white; /* Ensures text is readable */
+    padding: 135px;
+  }
+.card-section-container{
+  margin: -50px;
+  /* margin-left: 220px; */
+  padding: 0px;
+  border: 0;
+  display: flex;
+  align-items: stretch ;
+  gap: 155px;
+  flex-wrap: wrap;
+  width: 100vw;
+        box-sizing: border-box;
+        height: fit-content;
+        display: flex;
+        position: relative;
+        top: -2rem;
+        justify-content: center;
+}
+.col-md-3 {
+  padding-left: 0;
+  padding-right: 0;
+}
+.row.g-0 {
+  margin: 0; 
+}
+.card-container-dark{
+  text-align: center;
+  background-color: rgb(31, 34, 129);
+  border-style: solid;
+  border-width: 1px;
+  border-color: #e5eaf4;
+  border-radius: 0px;
+  margin: 0;
+  border: none;
+  padding:0px;
+  height: 100%;
+  width: 250px;
+  /* margin-left: 55px;
+  margin-right: 55px; */
+}
+.card-container-light{
+  text-align: center;
+  background-color: rgb(77, 83, 238);
+  border-style: solid;
+  border-width: 1px;
+  border-color: #e5eaf4;
+  border-radius: 0px;
+  margin: 0;
+  border: none;
+  padding: 0px;
+  height: 100%;
+  width: 250px;
+  /* margin-left: 55px;
+  margin-right: 55px; */
+}
+.card-title{
+    color: orange;
+    font-family: "Roboto";
+    font-size: 22px;
+    font-weight: 900;
+}
+.card-description{
+  color: white;
+  font-family: "Roboto";
+  font-size: 16px;
+}
+.card-img-dark{
+  background-color: rgb(119, 131, 239);
+  width: 80px;
+  height: 80px;
+  border-radius: 40px;
+  margin: 15px;
+  padding-top: 22px;
+  padding-bottom: 14px;
+  padding-right: 16px;
+  padding-left: 22px;
+  color: white;
+  font-weight: 900;
+}
+.card-img-light{
+  background-color: rgb(3, 12, 99);
+  width:80px;
+  height: 80px;
+  border-radius: 40px;
+  margin: 15px;
+  padding-top: 22px;
+  padding-bottom: 14px;
+  padding-right: 20px;
+  padding-left: 22px;
+  color: white;
+  font-weight: 900;
+}
+.who-we-are-container{
+  /* width: 500px; */
+  margin-left: 15vw;
+  margin-right: 15vw;
+  
+}
+.who-we-are-heading{
+  color: orange;
+  font-size: 18px;
+  /* margin-top: 70px; */
+  /* margin-left: 20px;
+  margin-right: 20px; */
+}
+.who-we-are-subheading{
+  color: rgb(3, 12, 99);
+  font-size: 25px;
+  /* margin-left: 20px; */
+  /* margin-right: 80px; */
+}
+.who-we-are-description{
+  color: grey;
+  /* margin-left: 20px;
+  margin-right: 20px; */
+
+}
+.who-we-are-image{
+  height: 80vh;
+  width: 100%;
+  padding: 55px;
+}
+.footer-container{
+  background-color: rgb(25, 25, 157);
+  margin-top: 25px;
+  padding: 15px;
+  /* background-image: url('../I'); */
+  background-repeat: no-repeat;
+  width: 100%;
+
+  
+}
+.Footer-heading{
+  color: whitesmoke;
+  font-size: 25px;
+  /* text-align: center; */
+  margin-top: 15px;
+}
+.certified-description{
+  color: rgb(227, 222, 222);
+  font-size: 15px;
+  /* text-align: center; */
+}
+.why-choose-us-section{
+  margin-left: 15px;
+  margin-right: 15px;
+  /* margin-top: 25px; */
+}
+@media (min-width: 768px) {
+  .why-choose-us-section {
+    margin-left: 250px;
+    margin-right: 250px;
+  }}
+.why-choose-us-heading{
+  color: orange;
+  font-size: 20px;
+  font-weight: 700;
+}
+.who-we-are-subheading{
+  color: rgb(25, 25, 157);
+  font-size: 25px;
+  font-weight: 700;
+}
+.why-choose-us-description{
+  font-size: 15px;
+  color: gray;
+}
+.why-choose-logo{
+  background-color: white;
+  width: 60px;
+  height: 60px;
+  border: 2px solid rgb(98, 98, 165);
+  /* border-radius: 40px; */
+  margin: 5px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-right: 12px;
+  padding-left: 12px;
+  color: rgb(98, 98, 165);
+  font-weight: 500;
+}
+.logo-heading{
+  color: orange;
+  font-size: 20px;
+  font-weight: 600;
+  /* margin-bottom: 0; */
+  /* line-height: 0; */
+  margin: 0;
+}
+.logo-description{
+  color: gray;
+  /* margin-left: 250px;  */
+  margin-top: 10px;
+  /* margin-bottom: 0; */
+  /* line-height: 1.2; */
+  /* margin-right: 250px; */
+  margin: 0;
+  padding: 0;
+}
+.services-container-section{
+  background-color: rgb(229, 225, 225);
+}
+.services-container{
+  margin-top: 80px;
+  margin-left: 200px;
+  margin-right: 200px;
+  padding: 25px;
+  
+}
+.services-heading{
+  color: orange;
+  font-size: 18px;
+  font-weight: 700;
+}
+.services-subheading{
+  color: rgb(25, 25, 157);
+  font-size: 25px;
+  font-weight: 700;
+}
+.services-description{
+  color: gray;
+  font-size: 15px;
+  font-weight: 500;
+}
+.service-logo{
+  background-color: transparent;
+  width: 60px;
+  height: 60px;
+  border: 2px solid rgb(98, 98, 165);
+  /* border-radius: 40px; */
+  margin: 5px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-right: 12px;
+  padding-left: 12px;
+  color: white;
+  font-weight: 500;  
+}
+.product-section{
+  padding: 20px;
+  margin-top: 45px;
+  margin-left: 150px;
+  margin-right: 150px;    
+}
+.products-heading{
+  color: orange;
+  font-size: 25px;
+  font-weight: 700;
+}
+.products-subheading{
+  color: rgb(25, 25, 157);
+  font-size: 45px;
+  font-weight: 700; 
+}
+.product-description{
+  color: gray;
+  font-size: 18px;
+  margin-top: 15px;
+}
+.product-img{
+  height: 300px;
+  width: 285px;
+}
+.product-img-heading{
+  color: orange;
+  font-size: 25px;
+  font-weight: 600;
+}
+.product-img-subheading{
+  color: rgb(25, 25, 157);
+  font-size: 18px;
+  font-weight: 600;
+}
+.testimonial-section{
+  margin-top: 80px;
+  margin-left: 150px;
+  margin-right: 150px;
+}
+.testimonial-heading{
+  color: orange;
+  font-size: 20px;
+  font-weight: 700;
+}
+.testimonial-subheading{
+  color: rgb(25, 25, 157);
+  font-size: 40px;
+  font-weight: 700;
+}
+.testimonial-description{
+ color: gray;
+ font-size: 17px; 
+}
+.carousel-container{
+  background-image: linear-gradient(180deg, rgb(69, 208, 229), rgb(213, 251, 46));
+  padding: 20px;
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-top: 80px;
+  margin-bottom: 80px;
+}
+.carousel-description{
+  color: black;
+  font-size: 20px;
+  font-weight: 450;
+  font-family: "Roboto";
+  margin-top: 10px;
+  padding: 5px;
+}
+.carousel-name{
+  color: rgb(25, 25, 157);
+  font-size: 28px;
+  font-weight: 700;
+  padding: 5px;
+}
+.carousel-place{
+  font-size: 18px;
+  font-weight: 500;
+  padding: 5px;
+}
+.client-section{
+  background-color: rgb(229, 225, 225);
+  padding: 30px;
+}
+.client-heading{
+  color: orange;
+  font-size: 18px;
+  font-weight: 700;
+}
+.client-description{
+  color:  rgb(25, 25, 157);
+  font-size: 30px;
+  font-weight: 700;
+}
+.client-logo-section{
+  padding: 30px;
+  margin-left: 180px;
+  margin-right: 180px;
+}
+.client-logo{
+  height: 200px;
+  width: 200px;
+  background-color: transparent
+}
+.last-section{
+  background-image: linear-gradient(180deg, rgb(69, 208, 229), rgb(213, 251, 46));
+  padding: 20px; 
+
+}
+.last-section-subheading{
+  color:gray;
+  font-size: 15px;
+  font-weight: 600;
+  margin-top: 30px;
+  /* margin-left: 350px; */
+  /* margin-right: 350px;  */
+}
+.list-items{
+  color: rgb(9, 9, 113);
+  list-style-type: none;
+  padding: 10px;
+}
